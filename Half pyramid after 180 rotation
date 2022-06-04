@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int row=4, column=4;
+    for(int i=0;i<=row;i++)
+    {
+        for(int j=0;j<5;j++)
+        {
+            if(j>=column)
+            cout<<"*";
+            
+            else
+            cout<<" ";
+        }
+       column--;
+        cout<<"\n";
+    }
+
+    return 0;
+}
+
+
+/*
+    *
+   **
+  ***
+ ****
+*****
+*/
